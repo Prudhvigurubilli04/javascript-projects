@@ -47,7 +47,7 @@
 
       li.list-group-item {
         flex-direction: column;
-        align-items: flex-start !important;
+        align-items: flex-start;
       }
 
       li.list-group-item div {
@@ -64,7 +64,7 @@
       }
 
       input.form-control-lg {
-        width: 70% !important;
+        width: 70% ;
       }
 
       #Add {
@@ -82,13 +82,12 @@
 </head>
 
 <body>
-  <img class="paper" src="Vibrant Geometric Mosaic in Color (1).png" alt="">
   <h1 class="bg-dark text-light container-md display-1 text-center">TO-Do-LIST</h1>
 
-  <div class="card bg-dark text-light container-sm mt-md-5">
-    <div class="card-body">
-      <div class="d-flex flex-wrap gap-2">
-        <input type="text" id="task" class="form-control-lg w-75" placeholder="Enter task here ">
+  <div class="card bg-dark text-light container-sm mt-md-5 w-50">
+    <div class="card-body text-center">
+      <div class="d-flex gap-2">
+        <input type="text" id="task" class="form-control-lg w-100" placeholder="Enter task here ">
         <button class="btn btn-success" id="Add">Add</button>
       </div>
       <ul class="list-group mt-3" id="list"></ul>
